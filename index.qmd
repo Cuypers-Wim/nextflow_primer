@@ -1,5 +1,7 @@
-# Preface {.unnumbered}
+# About {.unnumbered}
 
-This is a Quarto book.
+Welcome to this introduction to NextFlow for making bioinformatics pipelines.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+## Scope of the course
+
+This course aims to provide an overview of the key concepts in nextflow.

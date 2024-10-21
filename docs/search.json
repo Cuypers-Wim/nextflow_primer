@@ -4,9 +4,19 @@
     "href": "index.html",
     "title": "A quick primer to NextFlow",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.",
+    "text": "About\nWelcome to this introduction to NextFlow for making bioinformatics pipelines.",
     "crumbs": [
-      "Preface"
+      "About"
+    ]
+  },
+  {
+    "objectID": "index.html#scope-of-the-course",
+    "href": "index.html#scope-of-the-course",
+    "title": "A quick primer to NextFlow",
+    "section": "Scope of the course",
+    "text": "Scope of the course\nThis course aims to provide an overview of the key concepts in nextflow.",
+    "crumbs": [
+      "About"
     ]
   },
   {
