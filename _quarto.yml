@@ -1,5 +1,23 @@
 project:
-  title: "A quick primer to nextflow"
+  type: book
+
+book:
+  title: "A quick primer to NextFlow"
+  author: "Wim L. Cuypers"
+  date: "10/21/2024"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
 
 
 
