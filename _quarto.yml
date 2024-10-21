@@ -27,7 +27,7 @@ page-footer:
       Unless otherwise noted, all content on this site is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
       [![](https://mirrors.creativecommons.org/presskit/icons/cc.svg){fig-alt="CC" height=30px}](https://creativecommons.org/licenses/by/4.0/) [![](https://mirrors.creativecommons.org/presskit/icons/by.svg){fig-alt="BY" height=30px}](https://creativecommons.org/licenses/by/4.0/)
       <br>
-      &copy; [Pieter Moris](https://pmoris.github.io) - [ITM Malariology](https://research.itg.be/en/organisations/malariology), 2024.
+      &copy; [Wim Cuypers](https://www.uantwerpen.be/en/staff/wim-cuypers/) - [Adrem Data Lab](https://www.uantwerpen.be/en/research-groups/adrem-data-lab/), 2024.
   right: Built with [Quarto](https://quarto.org/).
     # background: "#f8f9fa"
 
@@ -59,15 +59,15 @@ number-sections: true
 
 # citation-location: margin
 reference-location: margin
-bibliography: content/references.bib
+#bibliography: content/references.bib
 
 
 appendix-style: default
 format:
   html:
     theme: cosmo
-  pdf:
-    documentclass: scrreprt
+#  pdf:
+#    documentclass: scrreprt
 
 
 
