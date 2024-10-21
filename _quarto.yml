@@ -1,5 +1,7 @@
 project:
   type: book
+  output-dir: docs
+  execute-dir: project
 
 book:
   title: "A quick primer to NextFlow"
@@ -16,8 +18,51 @@ book:
     - content/summary.qmd
     - content/references.qmd
 
-bibliography: references.bib
 
+back-to-top-navigation: true
+page-navigation: true
+
+page-footer:
+  left: |
+      Unless otherwise noted, all content on this site is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+      [![](https://mirrors.creativecommons.org/presskit/icons/cc.svg){fig-alt="CC" height=30px}](https://creativecommons.org/licenses/by/4.0/) [![](https://mirrors.creativecommons.org/presskit/icons/by.svg){fig-alt="BY" height=30px}](https://creativecommons.org/licenses/by/4.0/)
+      <br>
+      &copy; [Pieter Moris](https://pmoris.github.io) - [ITM Malariology](https://research.itg.be/en/organisations/malariology), 2024.
+  right: Built with [Quarto](https://quarto.org/).
+    # background: "#f8f9fa"
+
+reader-mode: true
+
+sidebar:
+  # https://quarto.org/docs/websites/website-navigation.html#side-navigation
+  style: "docked"
+  # style: "floating"
+  search: true
+  # background: dark
+  logo: content/assets/ua_logo.png
+  logo-alt: Logo of UAntwerp
+  logo-href: https://www.uantwerpen.be/en/
+
+  repo-url: https://cuypers-wim.github.io/nextflow_primer/
+  # repo-actions: [source]
+  # sharing: [twitter, facebook]
+
+# comments:
+#   hypothesis: true
+
+toc: true
+toc-depth: 4
+toc-expand: true
+# toc-location: left
+number-sections: true
+# number-depth: 2
+
+# citation-location: margin
+reference-location: margin
+bibliography: content/references.bib
+
+
+appendix-style: default
 format:
   html:
     theme: cosmo
