@@ -3,13 +3,18 @@ project:
 
 book:
   title: "A quick primer to NextFlow"
-  author: "Wim L. Cuypers"
+  author: 
+  - name: Wim Cuypers
+    orcid: 0000-0002-1895-3526
+    email: wim.cuypers@uantwerpen.be
+    affiliations:
+      - University of Antwerp
   date: "10/21/2024"
   chapters:
-    - index.qmd
-    - intro.qmd
-    - summary.qmd
-    - references.qmd
+    - content/index.qmd
+    - content/intro.qmd
+    - content/summary.qmd
+    - content/references.qmd
 
 bibliography: references.bib
 
