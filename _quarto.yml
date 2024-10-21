@@ -11,7 +11,7 @@ book:
       - University of Antwerp
   date: "10/21/2024"
   chapters:
-    - content/index.qmd
+    - index.qmd
     - content/intro.qmd
     - content/summary.qmd
     - content/references.qmd
